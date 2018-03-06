@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program>
+	<instituce>
+		<hlavicka>
+			<nazev>NÁZEV INSTITUCE</nazev>
+			<kontakt>Štefánikova 1 | 737 387 072 | info@domena.cz | www.nazevinstituce.cz</kontakt>
+			<poznamka>Otevírací doba: po–pá 8.00–16.00</poznamka>
+		</hlavicka>
+		<udalosti>
+			<udalost>
+				<cleneni>expozice</cleneni>
+				<datum>1.</datum>
+				<cas>19.30</cas>
+				<nazev>Šamrova čtverka</nazev>
+				<anotace>divadlo Druhý Pád</anotace>
+			</udalost>
+			<udalost>
+				<datum>4.</datum>
+				<cas>19.00</cas>
+				<nazev>Curanderos</nazev>
+				<anotace>filmový trip za ayahuascou Brno</anotace>
+			</udalost>
+			<udalost>
+				<datum>18.</datum>
+				<cas>16.00, 19.00</cas>
+				<nazev>Turandot ou le congrès des blanchisseurs</nazev>
+				<anotace>B. Brecht</anotace>
+			</udalost>
+			<udalost>
+				<cleneni>festivaly</cleneni>
+				<datum>3.–4., 10.–11.</datum>
+				<cas/>
+				<nazev>Vegan fest</nazev>
+				<anotace>festival, sál</anotace>
+			</udalost>
+			<udalost>
+				<datum>15.–23.</datum>
+				<cas>20.00</cas>
+				<nazev>16. MiniFest</nazev>
+				<anotace>EzoEtnoOm</anotace>
+			</udalost>
+			<udalost>
+				<cleneni>doprovodný program</cleneni>
+				<datum>10.</datum>
+				<cas>19.30</cas>
+				<nazev>English Stand-up Show with UGC in Brno</nazev>
+				<anotace>english friendly</anotace>
+			</udalost>
+			<udalost>
+				<datum>29.</datum>
+				<cas>20.30</cas>
+				<nazev>Lucky Sings</nazev>
+				<anotace>koncert</anotace>
+			</udalost>
+		</udalosti>
+	</instituce>
+	<instituce>
+		<hlavicka>
+			<nazev>NÁZEV DRUHÉ INSTITUCE</nazev>
+			<kontakt>Štefánikova 1 | 737 387 072 | info@domena.cz | www.nazevinstituce.cz</kontakt>
+			<poznamka>Otevírací doba: po–pá 8.00–16.00</poznamka>
+		</hlavicka>
+		<udalosti>
+			<udalost>
+				<datum>1.</datum>
+				<cas>19.30</cas>
+				<nazev>Šamrova čtverka</nazev>
+				<anotace>divadlo Druhý Pád</anotace>
+			</udalost>
+			<udalost>
+				<datum>4.</datum>
+				<cas>19.00</cas>
+				<nazev>Curanderos</nazev>
+				<anotace>filmový trip za ayahuascou Brno</anotace>
+			</udalost>
+			<udalost>
+				<datum>18.</datum>
+				<cas>16.00, 19.00</cas>
+				<nazev>Turandot ou le congrès des blanchisseurs</nazev>
+				<anotace>B. Brecht</anotace>
+			</udalost>
+			<udalost>
+				<datum>3.–4., 10.–11.</datum>
+				<cas/>
+				<nazev>Vegan fest</nazev>
+				<anotace>festival, sál</anotace>
+			</udalost>
+			<udalost>
+				<datum>15.–23.</datum>
+				<cas>20.00</cas>
+				<nazev>16. MiniFest</nazev>
+				<anotace>EzoEtnoOm</anotace>
+			</udalost>
+			<udalost>
+				<datum>10.</datum>
+				<cas>19.30</cas>
+				<nazev>English Stand-up Show with UGC in Brno</nazev>
+				<anotace>english friendly</anotace>
+			</udalost>
+			<udalost>
+				<datum>29.</datum>
+				<cas>20.30</cas>
+				<nazev>Lucky Sings</nazev>
+				<anotace>koncert</anotace>
+			</udalost>
+		</udalosti>
+	</instituce>
+</program>

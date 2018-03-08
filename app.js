@@ -1,6 +1,8 @@
 var rABS = true; // true: readAsBinaryString ; false: readAsArrayBuffer
 function handleFile(e) {
   var files = e.target.files, f = files[0];
+  var fileName = files[0].name;
+  var outputFileName = fileName.replace('xlsx', 'xml');
   var reader = new FileReader();
   reader.onload = function(e) {
     var data = e.target.result;
@@ -59,7 +61,7 @@ function handleFile(e) {
           cleneni: cleneni,
           datum: row['datum'],
           cas: row['cas'],
-          nazev: row['nazev'],
+          'udalost-nazev': row['nazev'],
           anotace: row['anotace']
         };
         if (cleneni) {
@@ -76,7 +78,7 @@ function handleFile(e) {
       spaces: '\t',
       compact: true
     });
-    download('output.xml', output);
+    download(outputFileName, output);
   };
   if(rABS) reader.readAsBinaryString(f); else reader.readAsArrayBuffer(f);
 }

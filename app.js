@@ -34,15 +34,9 @@ function handleFile(e) {
         }
         instituce = {
           hlavicka: {
-            nazev: {
-              _text: row['instituce-nazev']
-            },
-            kontakt: {
-              _text: row['instituce-kontakty']
-            },
-            poznamka: {
-              _text: row['instituce-poznamky-nepovinne']
-            }
+            nazev: row['instituce-nazev'],
+            kontakt: row['instituce-kontakty'],
+            poznamka: row['instituce-poznamky-nepovinne']
           },
           udalosti: {
             udalost: []
@@ -56,7 +50,7 @@ function handleFile(e) {
       }
 
       // radek udalosti
-      if (row['datum']) {
+      if (row['nazev']) {
         var udalost = {
           cleneni: cleneni,
           datum: row['datum'],
@@ -81,6 +75,7 @@ function handleFile(e) {
     download(outputFileName, output);
   };
   if(rABS) reader.readAsBinaryString(f); else reader.readAsArrayBuffer(f);
+  this.value = null;
 }
 document.getElementById('fileInput').addEventListener('change', handleFile, false);
 

@@ -15,9 +15,9 @@
 				<anotace>divadlo Druhý Pád</anotace>
 			</udalost>
 			<udalost>
-				<datum>4.</datum>
-				<cas>19.00</cas>
-				<udalost-nazev>Curanderos</udalost-nazev>
+				<datum/>
+				<cas/>
+				<udalost-nazev/>
 				<anotace>filmový trip za ayahuascou Brno</anotace>
 			</udalost>
 			<udalost>
@@ -68,10 +68,10 @@
 				<anotace>divadlo Druhý Pád</anotace>
 			</udalost>
 			<udalost>
-				<datum>4.</datum>
-				<cas>19.00</cas>
+				<datum/>
+				<cas/>
 				<udalost-nazev>Curanderos</udalost-nazev>
-				<anotace>filmový trip za ayahuascou Brno</anotace>
+				<anotace/>
 			</udalost>
 			<udalost>
 				<datum>18.</datum>
@@ -87,9 +87,9 @@
 			</udalost>
 			<udalost>
 				<datum>15.–23.</datum>
-				<cas>20.00</cas>
-				<udalost-nazev>16. MiniFest</udalost-nazev>
-				<anotace>EzoEtnoOm</anotace>
+				<cas/>
+				<udalost-nazev/>
+				<anotace/>
 			</udalost>
 			<udalost>
 				<datum>10.</datum>
@@ -98,10 +98,10 @@
 				<anotace>english friendly</anotace>
 			</udalost>
 			<udalost>
-				<datum>29.</datum>
+				<datum/>
 				<cas>20.30</cas>
-				<udalost-nazev>Lucky Sings</udalost-nazev>
-				<anotace>koncert</anotace>
+				<udalost-nazev/>
+				<anotace/>
 			</udalost>
 		</udalosti>
 	</instituce>

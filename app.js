@@ -50,7 +50,7 @@ function handleFile(e) {
       }
 
       // radek udalosti
-      if (row['nazev']) {
+      if (row['nazev'] || row['datum'] || row['cas'] || row['anotace']) {
         var udalost = {
           cleneni: cleneni,
           datum: row['datum'],

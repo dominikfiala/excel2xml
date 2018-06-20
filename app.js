@@ -50,7 +50,7 @@ function handleFile(e) {
       }
 
       // radek udalosti
-      if (row['nazev'] || row['datum'] || row['cas'] || row['anotace']) {
+      if (row['podrobnejsi-cleneni-nepovinne'] || row['nazev'] || row['datum'] || row['cas'] || row['anotace']) {
         var udalost = {
           cleneni: cleneni,
           datum: row['datum'],
@@ -58,12 +58,17 @@ function handleFile(e) {
           'udalost-nazev': row['nazev'],
           anotace: row['anotace']
         };
+
         if (cleneni) {
-          cleneni = ''
+          cleneni = '';
         }
-        else {
-          delete udalost.cleneni;
+
+        for (var propName in udalost) {
+          if (!udalost[propName]) {
+            delete udalost[propName];
+          }
         }
+
         instituce.udalosti.udalost.push(udalost)
       }
     });
